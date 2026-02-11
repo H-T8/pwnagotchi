@@ -63,21 +63,15 @@ If this path is incorrect, the script will fail safely.
 After installation:
 
 1. Insert the SD card into the Pwnagotchi
-2. Power it on
-3. Open the web UI (usually):
+2. Power it on using **one of the following**:
+    - a USB charger or power bank
+    - a PWR IN micro-USB port (the port farthest away from the HDMI connector)
 
-   ```
-   http://pwnagotchi.local:8080
-   ```
+If connected via the **USB (data) port** (near the HDMI connector) to a
+computer, phone, or other USB host device, Pwnagotchi will enter
+**MANU mode**, which is intended for data transfer:
 
-On a **fresh install**, Pwnagotchi may initially boot into **MANU mode**.
-This is expected behavior.
-
-To start active operation:
-
-* In the web UI, select **Restart in AUTO mode**
-
-After this restart, AUTO mode should persist across reboots.
+https://pwnagotchi.ai/usage/
 
 ---
 

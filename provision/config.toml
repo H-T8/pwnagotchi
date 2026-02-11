@@ -1,0 +1,13 @@
+[main]
+name = "pwnago-T8"
+custom_plugins = "/usr/local/share/pwnagotchi/custom-plugins"
+
+[main.plugins.octopus_swap]
+enabled = true
+
+[ui.display]
+enabled = true
+type = "ws4"
+[ui]
+fps = 0
+invert = false

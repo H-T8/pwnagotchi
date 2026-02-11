@@ -8,6 +8,38 @@ enabled = true
 [ui.display]
 enabled = true
 type = "ws4"
+
 [ui]
 fps = 0
 invert = false
+
+[main.log]
+path = "/etc/pwnagotchi/log/pwnagotchi.log"
+path-debug = "/etc/pwnagotchi/log/pwnagotchi-debug.log"
+
+[main.log.rotation]
+enabled = true
+size = "10M"
+
+[personality]
+advertise = true
+deauth = false
+associate = false
+channels = []
+min_rssi = -200
+ap_ttl = 120
+sta_ttl = 300
+recon_time = 30
+max_inactive_scale = 2
+recon_inactive_multiplier = 2
+hop_recon_time = 10
+min_recon_time = 5
+max_interactions = 3
+max_misses_for_recon = 5
+excited_num_epochs = 10
+bored_num_epochs = 15
+sad_num_epochs = 25
+bond_encounters_factor = 20000
+throttle_a = 0.4
+throttle_d = 0.9
+
